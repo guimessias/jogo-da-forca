@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 90vh;
+    margin-top: 10px;
+    background-color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+-ms-flex-direction: column;
+}
+#imagem{
+background-image:url(../img/forca.png) ;
+width: 234px;
+height: 272px;
+background-repeat: no-repeat;
+}
+#palavra-secreta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    margin-top: 30px;
+}
+.letras{
+    width: 16px;
+    text-align: center;
+    border-bottom: 2px solid purple;
+    color: white;
+    padding: 2px;
+    margin-left: 2px ;
+    margin-right: 2px;
+}
+#teclado{
+margin-top:30px ;
+}
